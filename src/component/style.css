@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.code-input{
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 1px solid #ddd;
+    background: #282c34;
+    color: white;
+    outline: none;
+    resize: none;
+}
+
+.output{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 10px;
+    background:#282c34 ;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.codejs{
+    white-space: pre-wrap;
+}
