@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Prism from 'prismjs';
 import { highlightAll } from 'prismjs';
-import './style.css'; // Your custom styles
-import './prismthemes.css'; // Your Prism themes CSS
+import './style.css'; 
+import './prismthemes.css'; 
 
 const CodeEditor = () => {
   const [code, setCode] = useState(`
